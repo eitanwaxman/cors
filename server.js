@@ -16,8 +16,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/data', (req, res) => {
-    console.log("request", req);
-
     const mockData = {
         name: 'John Doe',
         age: 30,
